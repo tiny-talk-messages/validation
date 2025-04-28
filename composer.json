@@ -1,5 +1,7 @@
 {
   "name": "tiny-talk-messages/validation",
+  "description": "A lightweight, type-safe validation library for PHP 8.3+",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "TinyTalkMessages\\Validation\\": "src/"
