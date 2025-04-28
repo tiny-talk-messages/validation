@@ -65,7 +65,7 @@ src/
   Interfaces/
     RuleInterface.php      # Interface for custom rules
     ValidatorInterface.php # Interface for validators
-examples/
+examples/                  # Implementation examples
   hooked-rule-validation.php
   rules.php
   validator.php
@@ -77,8 +77,18 @@ To install development dependencies and run the tests:
 
 ```bash
 composer install
-vendor/bin/phpunit
+composer test
 ```
+
+## Code Examples
+
+A rich set of usage examples is available in the [`examples/`](./examples/) directory:
+- [rules.php](./examples/rules.php) – Examples of custom validation rule implementations (like Email and OptionalEmail).
+- [validator.php](./examples/validator.php) – Example of a custom validator and working with the error collection.
+- [hooked-rule-validation.php](./examples/hooked-rule-validation.php) – Example with a "hooked rule" and integration of validation errors into the validator interface.
+
+We recommend reviewing these examples for a better understanding of the library's structure and extensibility.
+
 
 ## Why Use This Package?
 
