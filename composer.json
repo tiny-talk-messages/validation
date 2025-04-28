@@ -1,6 +1,5 @@
 {
   "name": "tiny-talk-messages/validation",
-  "version": "1.0.0",
   "autoload": {
     "psr-4": {
       "TinyTalkMessages\\Validation\\": "src/"
