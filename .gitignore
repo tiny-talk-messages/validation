@@ -1,0 +1,7 @@
+# IDE files
+.idea/
+.qodo/
+.vscode/
+
+vendor/
+composer.lock
